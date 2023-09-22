@@ -1,0 +1,23 @@
+.container {
+  height: 20px;
+  width: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transition: 0.5s ease-in;
+  padding: 3px;
+}
+
+.themeToggleThumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.toggleImg {
+  object-fit: contain;
+}
