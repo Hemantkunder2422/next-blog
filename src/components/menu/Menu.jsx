@@ -11,7 +11,7 @@ const Menu = () => {
       <div className={styles.items}>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" className={styles.image} fill />
+            <Image src="/p1.jpeg" className={styles.image} fill alt="" />
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.travel}`}>
@@ -28,7 +28,7 @@ const Menu = () => {
         </Link>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" className={styles.image} fill />
+            <Image src="/p1.jpeg" className={styles.image} fill alt="" />
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.culture}`}>
@@ -45,7 +45,7 @@ const Menu = () => {
         </Link>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" className={styles.image} fill />
+            <Image src="/p1.jpeg" className={styles.image} fill alt="" />
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.food}`}>Food</span>
@@ -60,7 +60,7 @@ const Menu = () => {
         </Link>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" className={styles.image} fill />
+            <Image src="/p1.jpeg" className={styles.image} fill alt="" />
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.fashion}`}>
@@ -79,12 +79,22 @@ const Menu = () => {
       <h2 className={styles.subtitle}>Discover by topic</h2>
       <h1 className={styles.title}>Categories</h1>
       <div className={styles.categoryList}>
-        <Link href="/blog?cat=style" className={styles.link}>
-          Style
-        </Link>
-        <Link href="/blog?cat=style" className={styles.link}></Link>
-        <Link href="/blog?cat=style" className={styles.link}></Link>
-        <Link href="/blog?cat=style" className={styles.link}></Link>
+        <Link
+          href="/blog?cat=style"
+          className={`${styles.categoryItem} ${styles.style}`}
+        ></Link>
+        <Link
+          href="/blog?cat=style"
+          className={`${styles.categoryItem} ${styles.style}`}
+        ></Link>
+        <Link
+          href="/blog?cat=style"
+          className={`${styles.categoryItem} ${styles.style}`}
+        ></Link>
+        <Link
+          href="/blog?cat=style"
+          className={`${styles.categoryItem} ${styles.style}`}
+        ></Link>
       </div>
       <h2 className={styles.subtitle}>Chosen by the editor</h2>
       <h1 className={styles.title}>Editors Choice</h1>
