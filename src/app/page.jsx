@@ -6,10 +6,10 @@ import Menu from "@/components/menu/Menu";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className={styles.container}>
       <Featured />
       <CategoryList />
-      <div className="">
+      <div className={styles.content}>
         <CardList />
         <Menu />
       </div>
