@@ -11,7 +11,12 @@ const Menu = () => {
       <div className={styles.items}>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" className={styles.image} fill alt="" />
+            <Image
+              src="/p1.jpeg"
+              alt="thumbnail"
+              className={styles.image}
+              fill
+            />
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.travel}`}>
@@ -28,7 +33,12 @@ const Menu = () => {
         </Link>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" className={styles.image} fill alt="" />
+            <Image
+              src="/p1.jpeg"
+              alt="thumbnail"
+              className={styles.image}
+              fill
+            />
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.culture}`}>
@@ -45,7 +55,12 @@ const Menu = () => {
         </Link>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" className={styles.image} fill alt="" />
+            <Image
+              src="/p1.jpeg"
+              alt="thumbnail"
+              className={styles.image}
+              fill
+            />
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.food}`}>Food</span>
@@ -60,7 +75,12 @@ const Menu = () => {
         </Link>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" className={styles.image} fill alt="" />
+            <Image
+              src="/p1.jpeg"
+              alt="thumbnail"
+              className={styles.image}
+              fill
+            />
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.fashion}`}>
